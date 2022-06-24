@@ -522,6 +522,17 @@ header .main .sec-section img {
     width: 90%;
   }
 }
+@media screen and (max-width: 800px) {
+  .card__text .desc h4 {
+   margin:1rem 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .card__text .desc p:first-of-type {
+   margin:1rem 0;
+  }
+}
+
 
 .card__text .desc {
   -webkit-box-orient: vertical;
@@ -589,7 +600,8 @@ footer .top {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-      height:70vh;
+      height:max-content;
+    padding:2rem 0;
   }
 }
 
